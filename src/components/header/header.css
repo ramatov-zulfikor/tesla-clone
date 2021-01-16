@@ -23,17 +23,13 @@
    justify-content: center;
 }
 
-.header__center p {
+.header p {
    margin: 10px;
+   cursor: pointer;
    text-transform: uppercase;
 }
 
 .header__right {
    display: flex;
    justify-content: flex-end;
-}
-
-.header__right p {
-   margin: 10px;
-   text-transform: uppercase;
 }
