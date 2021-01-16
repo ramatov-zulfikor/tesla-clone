@@ -1,8 +1,8 @@
 .header {
    position: fixed;
-   top: 0;
-   left: 0;
-   width: 100vw;
+   top: 0%;
+   left: 0%;
+   width: 100%;
    display: flex;
    align-items: center;
    background: none;
@@ -14,7 +14,6 @@
 .header__logo {
    height: 24px;
    width: 100px;
-   margin-top: 7px;
 }
 
 .header__center {
@@ -24,12 +23,14 @@
 }
 
 .header p {
-   margin: 10px;
+   font-size: 14px;
+   line-height: 1.25;
+   margin: 0 10px;
    cursor: pointer;
    text-transform: uppercase;
 }
 
 .header__right {
    display: flex;
-   justify-content: flex-end;
+   margin-right: 30px;
 }

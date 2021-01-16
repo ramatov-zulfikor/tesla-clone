@@ -11,6 +11,8 @@ import ModelY from './assets/Desktop-ModelY.jpeg'
 import SolarPanels from './assets/Desktop-SolarPanels.jpeg'
 import SolarRoof from './assets/Desktop-SolarRoof.jpeg'
 
+import './App.css'
+
 export default function App() {
   return (
     <div className="app">
